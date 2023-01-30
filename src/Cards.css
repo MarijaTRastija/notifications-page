@@ -1,0 +1,12 @@
+.notification {
+  background-color: #f6fafd;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.container {
+  max-width: 70%;
+
+  align-items: center;
+  justify-content: center;
+}
