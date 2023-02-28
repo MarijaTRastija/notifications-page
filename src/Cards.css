@@ -1,12 +1,57 @@
-.notification {
-  background-color: #f6fafd;
-  border: 1px solid black;
+li {
+  border: 2px solid white;
   padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  list-style: none;
 }
 
-.container {
-  max-width: 70%;
+.unread {
+  background-color: #f6fafd;
+}
 
+ul.container {
   align-items: center;
   justify-content: center;
+  padding: 0;
+}
+
+td {
+  padding: 0px 20px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a :hover {
+  color: var(--primary-color);
+}
+
+.nameLink {
+  color: black;
+  font-weight: bold;
+}
+
+.postLink {
+  color: hsl(219, 12%, 42%);
+  font-weight: bold;
+}
+
+.chessLink {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.message {
+  display: block;
+  border: 2px solid hsl(219, 12%, 42%);
+  border-radius: 5px;
+  padding: 30px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+img {
+  max-width: 50px;
 }
