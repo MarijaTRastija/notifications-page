@@ -44,8 +44,8 @@ export default function Cards(props) {
         </li>
       ))} */}
       <table>
-        <tr>
-          <li className={readClassName}>
+        <li className={readClassName}>
+          <tr>
             <td>
               <img src={webber} alt="Mark Webber" />
             </td>
@@ -59,75 +59,111 @@ export default function Cards(props) {
               </a>
               <p>1m ago</p>
             </td>
-          </li>
-        </tr>
-        <tr>
-          <td>
-            <li className={readClassName}>
+          </tr>
+        </li>
+
+        <li className={readClassName}>
+          <tr>
+            <td>
               <img src={gray} alt="Angela Gray" />
+            </td>
+            <td>
               <a href="/" className="nameLink">
                 Angela Gray
               </a>{" "}
               followed you
               <p>5m ago</p>
-            </li>
-          </td>
-        </tr>
+            </td>
+          </tr>
+        </li>
+
         <li className={readClassName}>
-          <img src={thompson} alt="Jacob Thompson" />
-          <a href="/" className="nameLink">
-            Jacob Thompson
-          </a>{" "}
-          has joined your group{" "}
-          <a href="/" className="chessLink">
-            Chess Club
-          </a>
-          <p>1 day ago</p>
+          <tr>
+            <td>
+              <img src={thompson} alt="Jacob Thompson" />
+            </td>
+            <td>
+              <a href="/" className="nameLink">
+                Jacob Thompson
+              </a>{" "}
+              has joined your group{" "}
+              <a href="/" className="chessLink">
+                Chess Club
+              </a>
+              <p>1 day ago</p>
+            </td>
+          </tr>
+        </li>
+
+        <li className="notification">
+          <tr>
+            <td>
+              <img src={hasanuddin} alt="Rizky Hasanuddin" />
+            </td>
+            <td>
+              <a href="/" className="nameLink">
+                Rizky Hasanuddin
+              </a>{" "}
+              sent you a private message
+              <p>5 days ago</p>
+              <br />
+              <a href="/" className="message">
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </a>
+            </td>
+          </tr>
+        </li>
+
+        <li className="notification">
+          <tr>
+            <td>
+              <img src={smith} alt="Kimberly Smith" />
+            </td>
+            <td>
+              <a href="/" className="nameLink">
+                Kimberly Smith
+              </a>{" "}
+              commented on your picture
+              <img src="" alt="" />
+              <p>1 week ago</p>
+            </td>
+          </tr>
         </li>
         <li className="notification">
-          <img src={hasanuddin} alt="Rizky Hasanuddin" />
-          <a href="/" className="nameLink">
-            Rizky Hasanuddin
-          </a>{" "}
-          sent you a private message
-          <p>5 days ago</p>
-          <br />
-          <a href="/" className="message">
-            Hello, thanks for setting up the Chess Club. I've been a member for
-            a few weeks now and I'm already having lots of fun and improving my
-            game.
-          </a>
+          <tr>
+            <td>
+              <img src={peterson} alt="Nathan Peterson" />
+            </td>
+            <td>
+              <a href="/" className="nameLink">
+                Nathan Peterson
+              </a>{" "}
+              reacted to your recent post today{" "}
+              <a href="/" className="postLink">
+                5 end-game strategies to increase your win rate
+              </a>
+              <p>2 weeks ago</p>
+            </td>
+          </tr>
         </li>
         <li className="notification">
-          <img src={smith} alt="Kimberly Smith" />
-          <a href="/" className="nameLink">
-            Kimberly Smith
-          </a>{" "}
-          commented on your picture
-          <img src="" alt="" />
-          <p>1 week ago</p>
-        </li>
-        <li className="notification">
-          <img src={peterson} alt="Nathan Peterson" />
-          <a href="/" className="nameLink">
-            Nathan Peterson
-          </a>{" "}
-          reacted to your recent post today{" "}
-          <a href="/" className="postLink">
-            5 end-game strategies to increase your win rate
-          </a>
-          <p>2 weeks ago</p>
-        </li>
-        <li className="notification">
-          <img src={kim} alt="Anna Kim" />
-          <a href="/" className="nameLink">
-            Anna Kim
-          </a>{" "}
-          left the group{" "}
-          <a href="/" className="chessLink">
-            Chess club
-          </a>
-          <p>2 weeks ago</p>
+          <tr>
+            <td>
+              <img src={kim} alt="Anna Kim" />
+            </td>
+            <td>
+              <a href="/" className="nameLink">
+                Anna Kim
+              </a>{" "}
+              left the group{" "}
+              <a href="/" className="chessLink">
+                Chess club
+              </a>
+              <p>2 weeks ago</p>
+            </td>
+          </tr>
         </li>
       </table>
     </ul>

@@ -69,10 +69,14 @@ p {
 
 footer {
   opacity: 0.5;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .appContainer {
     padding-left: 100px;
+  }
+  .markAsRead {
+    margin-right: 155px;
   }
 }
