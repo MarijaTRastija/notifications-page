@@ -50,13 +50,15 @@ export default function Cards(props) {
               <img src={webber} alt="Mark Webber" />
             </td>
             <td>
-              <a href="/" className="nameLink">
-                Mark Webber
-              </a>{" "}
-              reacted to your recent post today{" "}
-              <a href="/" className="postLink">
-                My first tournament today!
-              </a>
+              <div className="redDot">
+                <a href="/" className="nameLink">
+                  Mark Webber
+                </a>{" "}
+                reacted to your recent post today{" "}
+                <a href="/" className="postLink">
+                  My first tournament today!
+                </a>
+              </div>
               <p>1m ago</p>
             </td>
           </tr>
