@@ -6,10 +6,6 @@ li {
   list-style: none;
 }
 
-td {
-  color: hsl(219, 12%, 42%);
-}
-
 .unread {
   background-color: #f6fafd;
 }

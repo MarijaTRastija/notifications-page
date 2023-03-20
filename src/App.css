@@ -39,6 +39,7 @@
 
 header {
   padding: 12px;
+  display: flex;
 }
 
 a {
@@ -79,9 +80,14 @@ footer {
 
 @media (min-width: 768px) {
   .appContainer {
-    padding-left: 100px;
+    padding-left: 20px;
   }
+
+  .leftHeader {
+    padding-left: auto;
+  }
+
   .markAsRead {
-    margin-right: 155px;
+    margin-right: 100px;
   }
 }
