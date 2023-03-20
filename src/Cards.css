@@ -14,21 +14,27 @@ td {
   background-color: #f6fafd;
 }
 
-.redDot ::after {
-  position: absolute;
+.unread .redDot {
+  display: inline-block;
   border-radius: 5px;
   background: #f00;
+  margin-left: 10px;
   width: 10px;
   height: 10px;
 }
 
+.notificationText {
+  padding: 10px;
+}
+
 ul.container {
   align-items: center;
-  padding: 0;
+  padding-top: 20px;
 }
 
 p {
-  padding: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -64,9 +70,20 @@ a :hover {
   color: hsl(219, 12%, 42%);
 }
 
+.message:hover {
+  background-color: aliceblue;
+}
+
 img {
-  max-width: 50px;
-  padding: 10px 10px;
+  max-width: 60px;
+  max-height: 60px;
+  padding: 10px;
+}
+
+.yourImage {
+  margin-left: auto;
+}
+
+.rowLi {
   display: flex;
-  align-items: center;
 }
