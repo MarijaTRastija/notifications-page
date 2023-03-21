@@ -67,7 +67,8 @@ a :hover {
 }
 
 .message:hover {
-  background-color: aliceblue;
+  background-color: hsl(211, 68%, 94%);
+  color: hsl(219, 12%, 42%);
 }
 
 img {

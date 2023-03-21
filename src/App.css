@@ -29,7 +29,6 @@
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
-  /* position: absolute; */
 }
 
 .leftHeader {
@@ -79,15 +78,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .appContainer {
-    padding-left: 20px;
-  }
-
-  .leftHeader {
-    padding-left: auto;
-  }
-
-  .markAsRead {
-    margin-right: 100px;
+  .appHeader {
+    padding: 20px 55px;
   }
 }

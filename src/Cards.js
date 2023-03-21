@@ -44,7 +44,6 @@ export default function Cards(props) {
           <p>{card.date}</p>
         </li>
       ))} */}
-      {/* <table> */}
       <li className={readClassName}>
         <div className="rowLi">
           <img src={webber} alt="Mark Webber" />
