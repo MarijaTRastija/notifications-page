@@ -9,41 +9,11 @@ import peterson from "./images/avatar-nathan-peterson.webp";
 import kim from "./images/avatar-anna-kim.webp";
 import you from "./images/image-chess.webp";
 
-// const cards = [
-//   {
-//     name: "Mark Webber",
-//     action: "reacted to your recent post today",
-//     item: "My first tournament today!",
-//     date: "1m ago",
-//   },
-//   { name: "Angela Gray", action: "followed you", date: "5m ago" },
-// ];
-
 export default function Cards(props) {
   const readClassName = props.read ? undefined : "unread";
 
   return (
     <ul className="container">
-      {/* {cards.map((card) => (
-        <li className="unread" key={card.date}>
-          <img
-            alt=""
-            src={angela}
-            width="50"
-            height="50"
-            style={{ borderRadius: "100%" }}
-          />
-          <a href="/" className="nameLink">
-            {card.name}
-          </a>{" "}
-          {card.action}
-          <a href="/" className="postLink">
-            {" "}
-            {card.item}
-          </a>
-          <p>{card.date}</p>
-        </li>
-      ))} */}
       <li className={readClassName}>
         <div className="rowLi">
           <img src={webber} alt="Mark Webber" />
